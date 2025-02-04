@@ -4,9 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Website</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/app.css') }}"
+    />
   </head>
   <body>
     <h1>Kerice Forde</h1>
+    <img src="{{ url_for('static', filename='/img.jpg') }}" />
     <p>
       I am Computer Science major who hopes to break into the field of
       Cybersecurity or Data Science. My hobbies include reading and watching
